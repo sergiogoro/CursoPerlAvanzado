@@ -5,21 +5,17 @@ use warnings;
 use feature 'say';
 
 sub new {
-    my $self = shift;
-    $self = {};
-    bless $self;
-    return $self;
-}
-
-sub datos {
-    my $self = shift;
+    my $this = shift;
     my $centro = shift;
-    my @alumnos = shift;
-    $self = {
+    my $alumnos = shift;
+    my $class = ref($this) || $this;
+    my $self = {
         CENTRO => $centro,
-        ALUMNOS => @alumnos
+        ALUMNOS => $alumnos,
     };
-    return $self;
-}
+
+    bless $self, $class;
+    return ($self);
+};
 
 1;
