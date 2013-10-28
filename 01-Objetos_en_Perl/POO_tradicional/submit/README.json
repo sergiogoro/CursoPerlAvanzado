@@ -1,0 +1,39 @@
+{
+    "Curso" : "Perl Avanzado",
+
+    "Módulo" : "Objetos en Perl",
+
+    "Tema" : "Programación dirigida a objetos tradicional",
+
+    "Ejercicio" :
+    {
+        "Numero" : "1",
+        "Nombre" : "Creación de una jerarquía de clases en Perl"
+    },
+
+    "Uso" :
+    {
+        "Llamada" : "perl Alumnos.pl <CentroEducativo> <lista de alumnos separados por coma>",
+        "Ejemplo" : "perl Alumnos.pl UGR Sergio,Toni,Edu,Nico"
+    },
+
+    "Dudas" : {
+        "1" : "¿ Cómo guardar en un @array todo el contenido de @_?",
+        "2" : "¿ Cómo hacer un constructor (new) sin datos, y hacer un método aparte que recoja y almacene los datos ?",
+        "3" : "¿ Porqué 'bless $self, $class' y no  'bless $self' ?"
+    },
+
+    "Archivos" : {
+        "Módulo" :
+        {
+            "Archivo" : "Alumnos.pm",
+            "Ruta" : "/home/sergio/Docs/Perl/CursoPerlAvanzado/1/submit/lib/PA/"
+        },
+        "Archivo de prueba" :
+        {
+            "Archivo" : "Alumnos.pl",
+            "Ruta" : "/home/sergio/Docs/Perl/CursoPerlAvanzado/1/submit/"
+        }
+            
+    }
+}
